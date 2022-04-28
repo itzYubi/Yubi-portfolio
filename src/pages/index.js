@@ -6,9 +6,11 @@ import Technologies from '../components/Technologies/Technologies';
 import Timeline from '../components/TimeLine/TimeLine';
 import { Layout } from '../layout/Layout';
 import { Section } from '../styles/GlobalComponents';
+import {IndexPage} from './indexpage';
 
 const Home = () => {
   return (
+    
     <Layout>
       <Section grid>
         <Hero />
