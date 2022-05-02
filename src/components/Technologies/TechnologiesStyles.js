@@ -2,10 +2,10 @@ import styled from 'styled-components'
 
 export const ImageContainer = styled.div`
   text-align: center;
-  background-image: radial-gradient(50% 50% at 50% 50%, rgba(79, 108, 176, 0.25) 53.8%, rgba(79, 108, 176, 0) 100%);
+  background-image: none;
   width: 100%;
-  padding: 60px;
-  margin-top: 48px;
+  padding: 0px;
+  margin-top: 0px;
   display: flex;
   flex-direction: column;
   align-items: center;

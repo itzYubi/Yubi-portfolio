@@ -19,6 +19,30 @@ export const projects = [
   },
 ];
 
+export const research = [
+  {
+    title: 'Analysis-of-Hybrid-Approach-For-Voiceprint-Biometric-Template-protection',
+    description: "With the recent advancements in speech recognition or in general, biometric systems; their security becomes crucial. Before the content of this research paper can be accessed, we need to understand the need for template protection and existing methods for template protection. There have been a number of template protection techniques, but there is always a trade of between security and performance. This research paper presents a hybrid approach that utilizes the benefits of both Template transformation and Biometric Cryptosystem.",
+      image: ['/images/6.png','/images/7.png', '/images/8.png', '/images/9.png', '/images/10.png', '/images/11.png'],
+      tags: ['Python', 'numpy', 'Fuzzy Vault', 'matplotlib', 'Scipy'],
+    source: 'https://github.com/itzYubi/Analysis-of-Hybrid-Approach-For-Voiceprint-Biometric-Template-protection/blob/main/Research%20article.pdf',
+    visit: 'https://github.com/itzYubi/Analysis-of-Hybrid-Approach-For-Voiceprint-Biometric-Template-protection',
+    id: 0,
+  },
+
+  {
+    title: 'A possible Deterministic Rabin Cryptosystem',
+    description: "Rabin Cryptosystem is a public-key cryptosystem which utilizes the benefits of asymmetric key encryption for communicating between two parties and encrypting the message. The security of Rabin cryptosystem is related to the difficulty of factorization. The disadvantage of the algorithm is that it produces 4 pieces of decrypted plaintexts out of which only one is the secret message. My research focussses on a possible, secure way of finding the correct secret message after the receiver decrypts it! This is my current research! ",
+      image: ['/images/5.jpg'],
+      tags: ['C++', 'Cryptography'],
+    source: 'https://github.com/itzYubi/A-possible-Deterministic-Rabin-Cryptosystem/tree/main',
+    visit: 'https://github.com/itzYubi/A-possible-Deterministic-Rabin-Cryptosystem/tree/main',
+    id: 1,
+  },
+
+];
+
+
 export const TimeLineData = [
   { year: 2018, text: 'Graduted from Higher Secondary School with an aggregate of 93% from ISC Board.', },
   { year: 2018, text: 'Started my Undergraduate studies in Computer Science at NIT Uttarakhand.', },

@@ -17,8 +17,8 @@ const Hero = (props) => (
       </SectionTitle>
       <SectionText>
       Hello , my name is Utkarsh Bhandari. I am a Computer Science undergraduate at NIT Uttarakhand aspiring to be a software engineer. I am highly interested in Development, Cryptography and Network Security roles and research.
-      </SectionText>
-      <Button onClick={() => window.location = 'https://drive.google.com/drive/folders/1DNsvf8XBC6gbiOZ2rGvXUMM3xh4hfDj9'}>Resume</Button>
+      </SectionText >
+      <Button onClick={() => window.open("https://drive.google.com/drive/folders/1DNsvf8XBC6gbiOZ2rGvXUMM3xh4hfDj9", "_blank")} >Resume</Button>
     </LeftSection>
 
   </Section>
