@@ -14,7 +14,7 @@ const Technologies = () =>  (
       <List>
         <ListItem>
           <picture >
-          <DiCode size="5rem" style={{marginLeft: '55px'}}/>
+          <DiCode size="5rem" style={{marginLeft: '30px'}}/>
           </picture>
           <ListContainer>
             <ListTitle>Programming Languages and BackEnd</ListTitle>

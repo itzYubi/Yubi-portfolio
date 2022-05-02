@@ -6,7 +6,7 @@ import { research } from '../../constants/constants';
 import SimpleImageSlider from "react-simple-image-slider";
 
 const Research = () => (
-  <Section>
+  <Section id="research">
     <SectionDivider/>
     <br />
     <SectionTitle>Research Work</SectionTitle>
