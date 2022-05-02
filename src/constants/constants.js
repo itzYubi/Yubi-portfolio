@@ -32,7 +32,7 @@ export const research = [
 
   {
     title: 'A possible Deterministic Rabin Cryptosystem',
-    description: "Rabin Cryptosystem is a public-key cryptosystem which utilizes the benefits of asymmetric key encryption for communicating between two parties and encrypting the message. The security of Rabin cryptosystem is related to the difficulty of factorization. The disadvantage of the algorithm is that it produces 4 pieces of decrypted plaintexts out of which only one is the secret message. My research focussses on a possible, secure way of finding the correct secret message after the receiver decrypts it! This is my current research! ",
+    description: "Rabin Cryptosystem is a public-key cryptosystem that utilizes the benefits of asymmetric key encryption for communicating between two parties and encrypting the message. The security of Rabin's cryptosystem is related to the difficulty of factorization. The disadvantage of the algorithm is that it produces 4 pieces of decrypted plaintexts out of which only one is the secret message. My research focuses on a possible, secure way of finding the correct secret message after the receiver decrypts it! This is my current research! ",
       image: ['/images/5.jpg'],
       tags: ['C++', 'Cryptography'],
     source: 'https://github.com/itzYubi/A-possible-Deterministic-Rabin-Cryptosystem/tree/main',
