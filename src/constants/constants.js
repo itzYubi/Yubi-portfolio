@@ -48,4 +48,6 @@ export const TimeLineData = [
   { year: 2018, text: 'Started my Undergraduate studies in Computer Science at NIT Uttarakhand.', },
   { year: 2022, text: 'Final year undergraduate 8.3 CGPA', },
   { year: 2022, text: 'Interned with Samsung SDS as a Software Developer.', },
+  { year: 2022, text: 'Interned with PocketFul as a Backend Developer.', },
+  { year: 2022, text: 'Started Working with Algosec as a Development Engineer.', },
 ];
