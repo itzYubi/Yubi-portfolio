@@ -1,5 +1,6 @@
 import Document, { Head, Html, Main, NextScript } from 'next/document'
 import { ServerStyleSheet } from 'styled-components'
+import BackgroundAnimation from '../components/BackgrooundAnimation/BackgroundAnimation'
 
 export default class MyDocument extends Document {
   static async getInitialProps(ctx) {

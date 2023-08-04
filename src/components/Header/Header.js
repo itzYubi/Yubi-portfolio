@@ -1,8 +1,7 @@
 import Link from 'next/link';
 import React from 'react';
-import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from 'react-icons/ai';
+import { AiFillCode, AiFillGithub, AiFillInstagram, AiFillLinkedin } from 'react-icons/ai';
 import { DiSqllite } from 'react-icons/di';
-
 import { Container, Div1, Div2, Div3, NavLink, SocialIcons, Span } from './HeaderStyles';
 
 const Header = () =>  (
@@ -37,6 +36,9 @@ const Header = () =>  (
       </li>
     </Div2>
     <Div3>
+    <SocialIcons target="_blank" href="https://codeforces.com/profile/Clandestine_shh">
+        <AiFillCode size="3rem" />
+      </SocialIcons>
       <SocialIcons target="_blank" href="https://github.com/itzYubi">
         <AiFillGithub size="3rem" />
       </SocialIcons>

@@ -1,5 +1,12 @@
 import styled from "styled-components"
 
+
+export const Sa = styled.a`
+  font-weight: bold;
+  color: inherit; 
+  text-decoration: none;
+`
+
 export const Boxes = styled.div`
   width: 100%;
   display: grid;
@@ -23,7 +30,7 @@ export const Boxes = styled.div`
 `
 
 export const Box = styled.div`
-  background: #212D45;
+  background: #b70e3b;
   border-radius: 12px;
   height: 144px;
   padding: 24px;

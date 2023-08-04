@@ -1,8 +1,17 @@
 export const projects = [
   {
+    title: 'Yu-BNB',
+    description:"Pure Golang based app for Bed and Breakfast bookings. The Web application allows you to book the available rooms listed by the admin. Send you a mail and the admin when you book the room to show your reservation details. Admin can see and modify the reservation calender and block selected dates. Uses Chi router, SCS session management and also nosurf. Made using Go, Go Templates, PostGreSQL, HTML, CSS, JavaScript & deployed in AWS",
+    image: ['/images/YuBNBimg1.png', '/images/YuBNBimg2.png', '/images/YuBNBimg3.png','/images/YuBNBimg4.png', '/images/YuBNBimg5.png'],
+    tags: ['Go', 'PostGreSQL', 'CSS', 'JavaScript', 'HTML'],
+    source: 'https://ec2-3-6-228-17.ap-south-1.compute.amazonaws.com/',
+    visit: 'https://github.com/itzYubi/YuBNB',
+    id: 1,
+  },
+  {
     title: 'SORT.IO',
     description: "SORT.IO is a sorting visualizer made in Javascript. The application represents how various sorting techniques work and manifests a cogent visual display of the time taken by use of bars that represents an array. It is a great start to learning how actually Sorting algorithms work!",
-      image: '/images/1.png',
+      image: ['/images/1.png'],
       tags: ['JavaScript', 'Algorithms', 'React'],
     source: 'https://sort-io.vercel.app/',
     visit: 'https://github.com/itzYubi/Sort.IO',
@@ -11,10 +20,19 @@ export const projects = [
   {
     title: 'Contact Manager',
     description:"Spring boot App made for contact management. The Web application allows you to store and manage your contacts within seconds! This project was accociated with my work at Samsung SDS. Made using spring mvc, hibernate, sts4, PostgreSQL and deployed on Heroku.",
-    image: '/images/2.png',
+    image: ['/images/2.png'],
     tags: ['Java', 'Spring', 'Heroku', 'Hibernate', 'STS4'],
     source: 'https://contact-management-heroku.herokuapp.com/',
     visit: 'https://github.com/itzYubi/ContactManager-Spring-mvc-heroku',
+    id: 1,
+  },
+  {
+    title: 'Path Finder',
+    description:"Hurrah!! It's a Path finding visualizer! Support for various Algorithms like A*, Dijkstra, BFS, DFS. Push Ctrl to make walls. Made using React JS, CSS, HTML & deployed in vercel",
+    image: ['/images/pathFinder1.png', '/images/pathFinder2.png'],
+    tags: ['React', 'CSS', 'HTML'],
+    source: 'https://path-finder-graph-algorithms.vercel.app/',
+    visit: 'https://github.com/itzYubi/PathFinder-GraphAlgorithms',
     id: 1,
   },
 ];

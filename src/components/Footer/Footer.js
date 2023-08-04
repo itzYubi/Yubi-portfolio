@@ -1,5 +1,5 @@
 import React from 'react';
-import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from 'react-icons/ai';
+import { AiFillCode, AiFillGithub, AiFillInstagram, AiFillLinkedin } from 'react-icons/ai';
 
 import { SocialIcons } from '../Header/HeaderStyles';
 import { CompanyContainer, FooterWrapper, LinkColumn, LinkItem, LinkList, LinkTitle, Slogan, SocialContainer, SocialIconsContainer } from './FooterStyles';
@@ -14,8 +14,8 @@ const Footer = () => {
         </LinkColumn>
         <LinkColumn>
           <LinkTitle>Email</LinkTitle>
-          <LinkItem href="mailto:utkarsh.b1358@gmail.com">
-          utkarsh.b1358@gmail.com
+          <LinkItem href="mailto:utkarsh.wrk@gmail.com">
+          utkarsh.wrk@gmail.com
           </LinkItem>
         </LinkColumn>
       </LinkList>
@@ -24,6 +24,9 @@ const Footer = () => {
           <Slogan>Thanks for the visit!</Slogan>
         </CompanyContainer>
         <SocialContainer>
+          <SocialIcons target="_blank" href="https://codeforces.com/profile/Clandestine_shh">
+            <AiFillCode size="3rem" />
+          </SocialIcons>
           <SocialIcons target="_blank" href="https://github.com/itzYubi">
             <AiFillGithub size="3rem" />
           </SocialIcons>

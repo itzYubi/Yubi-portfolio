@@ -4,12 +4,12 @@ const BackgroundAnimation = () => (
   <div>
     <svg 
       className="BgAnimation__svg"
-      viewBox="-200 -50 700 700"
+      viewBox="-120 -120 700 700"
       b
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >
-      <g opacity="0.15">
+      <g opacity="2">
         <path
           fillRule="evenodd"
           clipRule="evenodd"

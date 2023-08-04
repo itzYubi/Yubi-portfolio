@@ -20,7 +20,7 @@ const Technologies = () =>  (
             <ListTitle>Programming Languages and BackEnd</ListTitle>
             <ListParagraph>
               Experience with<br />
-              C++, Java, Go, Spring, C
+              C++, Java, Go, Spring, C, JavaScript, HTML, CSS, Angular, TypeScript
             </ListParagraph>
           </ListContainer>
         </ListItem>
@@ -33,7 +33,7 @@ const Technologies = () =>  (
             <ListTitle>Automation</ListTitle>
             <ListParagraph>
               Experience with<br />
-              Selenium, TestNG, Jenkins, AWS, GCP, Azure, UI & API Automtion
+              Selenium, TestNG, Jenkins, Onprem and SaaS, UI & API Automation
             </ListParagraph>
           </ListContainer>
         </ListItem>
@@ -46,7 +46,7 @@ const Technologies = () =>  (
             <ListTitle>Database</ListTitle>
             <ListParagraph>
               Experience with<br />
-              OracleDB, PostgreSQL, MySQL, MongoDB
+              OracleDB, PostgreSQL, MySQL, MongoDB, Redis
             </ListParagraph>
           </ListContainer>
         </ListItem>

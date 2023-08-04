@@ -27,7 +27,8 @@ const Research = () => (
               <HeaderThree title>{d.title}</HeaderThree>
               <Hr />
             </TitleContent><CardInfo className="card-info">{d.description}</CardInfo><div>
-              <TitleContent>Stack</TitleContent>
+              <br></br>
+              <TitleContent>-------------- Tech Stack --------------</TitleContent>
               <TagList>
                 {d.tags.map((t, i) => {
                   return <Tag key={i}>{t}</Tag>;

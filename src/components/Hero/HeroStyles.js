@@ -16,3 +16,7 @@ export const LeftSection = styled.div`
     margin: 0 auto;
   }
 `;
+
+export const SectionText = styled.div`
+  color: rgb(0,0,0) !important;
+`;
