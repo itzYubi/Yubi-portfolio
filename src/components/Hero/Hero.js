@@ -2,7 +2,7 @@ import React from 'react';
 
 import { Section, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import Button from '../../styles/GlobalComponents/Button';
-import { LeftSection } from './HeroStyles';
+import { LeftSection, Img } from './HeroStyles';
 import Typewriter from "typewriter-effect";
 
 const Hero = (props) => (

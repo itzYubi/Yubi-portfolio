@@ -7,6 +7,7 @@ import Timeline from '../components/TimeLine/TimeLine';
 import { Layout } from '../layout/Layout';
 import { Section } from '../styles/GlobalComponents';
 import  Research from '../components/Research/Research';
+import WorkExperience from '../components/WorkExperience/WorkExperience';
 
 
 const Home = () => {
@@ -16,7 +17,8 @@ const Home = () => {
       <Section grid>
         <Hero />
         <BgAnimation />
-     </Section>
+      </Section>
+      <WorkExperience />
       <Projects />
       <Research />
       <Technologies />

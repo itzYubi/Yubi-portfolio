@@ -20,3 +20,10 @@ export const LeftSection = styled.div`
 export const SectionText = styled.div`
   color: rgb(0,0,0) !important;
 `;
+
+export const Img = styled.img`
+  width:100%;
+  height:100%;
+  object-fit: cover;
+  overflow: hidden;
+`;

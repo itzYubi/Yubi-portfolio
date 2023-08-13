@@ -69,3 +69,36 @@ export const TimeLineData = [
   { year: 2022, text: 'Interned with PocketFul as a Backend Developer.', },
   { year: 2022, text: 'Started Working with Algosec as a Development Engineer.', },
 ];
+
+export const WorkExperienceData = [
+  {
+    company: 'Algosec',
+    role: "Software Development Engineer",
+    startDate: '4 July 2023',
+    endDate: 'Current',
+    tags: ['Java', 'Spring', 'PostGreSQL', 'Selenium', 'Angular', 'AWS'],
+    description: "At Algosec, I am working as a Software Engineer working on our Cloud Product - AppViz. AlgoSec AppViz provides an application-centric approach to your network security policy management. With AlgoSec AppViz, all business applications are discovered, identified, and mapped, providing visibility of the network connectivity flows associated with each business application, which in turn provides critical security information regarding the firewalls and firewall rules supporting each connectivity flow.",
+    image: ['/images/algosec.png'],
+    website: "https://www.algosec.com/",
+  },
+  {
+    company: 'Pocketful',
+    role: "Backend developer intern",
+    startDate: '1 June 2022',
+    endDate: '31 July 2022',
+    tags: ['Go', 'Mongo DB', 'Postman', 'AWS S3'],
+    description: "At Pocketful I worked directly under the CEO and the CTO. I developed the KYC feature and major backend from scratch. Also integrated 3rd part API's to the backend. Pocketful is a new-age stockbroking platform that seeks to transform your trading experience by offering cutting-edge products that are backed by Nobel-winning financial research and best-in-class tech.",
+    image: ['/images/pocketful.jpeg'],
+    website: "https://www.pocketful.in/",
+  },
+  {
+    company: 'Samsung SDS',
+    role: "Software Engineer Intern",
+    startDate: '1 Feb 2022',
+    endDate: '31 May 2022',
+    tags: ['Java', 'Spring', 'Oracle DB', 'STS4', 'JSP'],
+    description: "At Samsung, I started my software engineering journey. I received extensive training on Java-Spring and other technologies around it. I also cleared the Samsung Software Proficiency Test in my first attempt and landed a full-time offer. Samsung SDS provides cloud and digital logistics services.",
+    image: ['/images/samsung.jpg'],
+    website: "https://www.samsungsds.com/in/index.html",
+  },
+]

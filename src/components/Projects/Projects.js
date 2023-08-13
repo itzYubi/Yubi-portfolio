@@ -24,7 +24,7 @@ const Projects = () => (
               autoPlayDelay={2}
               showNavs={true} />
             <TitleContent>
-              <HeaderThree title>{p.title}</HeaderThree>
+              <HeaderThree>{p.title}</HeaderThree>
               <Hr />
             </TitleContent>
             <CardInfo className="card-info">{p.description}</CardInfo>

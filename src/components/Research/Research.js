@@ -24,7 +24,7 @@ const Research = () => (
               autoPlayDelay={2.5}
               showNavs={true} />
           <TitleContent>
-              <HeaderThree title>{d.title}</HeaderThree>
+              <HeaderThree>{d.title}</HeaderThree>
               <Hr />
             </TitleContent><CardInfo className="card-info">{d.description}</CardInfo><div>
               <br></br>
