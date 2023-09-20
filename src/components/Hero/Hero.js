@@ -22,7 +22,7 @@ const Hero = (props) => (
       </SectionTitle>
       <SectionText>
       Hello , my name is Utkarsh Bhandari. 
-      I am a Software Engineer at AlgoSec. I am an undergraduated from NIT Uttarakhand. I am a CS major.
+      I am a Software Engineer at AlgoSec. I recently completed my undergraduate from NIT Uttarakhand. I am a CS major.
       I am passionate about Software Development, Cryptography, Computer Networks and Network Security.
       </SectionText >
       <Button onClick={() => window.open("https://drive.google.com/drive/folders/1DNsvf8XBC6gbiOZ2rGvXUMM3xh4hfDj9", "_blank")} >Resume</Button>
